@@ -1,7 +1,7 @@
 {
-    "name": "SAZUKI-SAMSUNG",
+    "name": "TEAM SAZUKI",
     "description": "A greater auto filter bot with features like IMDb support,inline mode,broadcast feature etc..",
-    "logo":"https://telegra.ph/file/316b36c86428f76518e13.jpg",
+    "logo":"https://telegra.ph/file/a1c95f92ffb00a09268f2.jpg",
     "keywords": [
       "telegram",
       "auto-filter",
@@ -21,10 +21,6 @@
         "BOT_TOKEN": {
             "description": "Your bot token.",
             "value": ""
-        }
-        "OWNER_ID": {
-            "description": "Your Own This Bot Controll Broadcast Id.",
-            "value": ""
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
@@ -41,6 +37,11 @@
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
             "value": ""
+        },
+        "AUTH_USERS": {
+            "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
+            "value": "",
+            "required": false
         },
         "FORCES_SUB": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
@@ -74,8 +75,16 @@
         },
         "DATABASE_2": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com ",
+            "value": ""
+        },
+        "TG_USER_SESSION": {
+            "description": "A pyrogram user session string. Generate from https://replit.com/@ALBINPRAVEEN1/getStringName",
             "value": "",
-            "required":
+            "required": true
+        },
+        "BOT_NAME": {
+            "description": "Name of the database in mongoDB ",
+            "value": "LuciferMoringstar_Robot"
         },
         "COLLECTION_NAME": {
             "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
@@ -106,11 +115,6 @@
             "description": "ID of a Channel (user Notification)",
             "value": "",
             "required": true
-        },
-        "TG_USER_SESSION": {
-            "description": "A pyrogram user session string. Generate from https://replit.com/@ALBINPRAVEEN1/getStringName",
-            "value": "",
-            "required": true
         }
     },
     "addons": [],
@@ -124,5 +128,3 @@
             "quantity": 1,
             "size": "free"
         }
-    }
-}
