@@ -1,7 +1,7 @@
 {
-    "name": "TEAM SAZUKI",
+    "name": "Auto Filter Bot V3",
     "description": "A greater auto filter bot with features like IMDb support,inline mode,broadcast feature etc..",
-    "logo":"https://telegra.ph/file/a1c95f92ffb00a09268f2.jpg",
+    "logo":"https://telegra.ph/file/ad9cb7fc42ec0e5e6d006.jpg",
     "keywords": [
       "telegram",
       "auto-filter",
@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/sherlockv2/AutoFilterBotV3",
-    "repository": "https://github.com/sherlockv2/AutoFilterBotV3",
+    "website": "https://github.com/DalinMathew/AutoFilterBotV3",
+    "repository": "https://github.com/DalinMathew/AutoFilterBotV3",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -77,11 +77,6 @@
             "description": "mongoDB URI. Get this value from https://www.mongodb.com ",
             "value": ""
         },
-        "TG_USER_SESSION": {
-            "description": "A pyrogram user session string. Generate from https://replit.com/@ALBINPRAVEEN1/getStringName",
-            "value": "",
-            "required": true
-        },
         "BOT_NAME": {
             "description": "Name of the database in mongoDB ",
             "value": "LuciferMoringstar_Robot"
@@ -128,3 +123,5 @@
             "quantity": 1,
             "size": "free"
         }
+    }
+}
