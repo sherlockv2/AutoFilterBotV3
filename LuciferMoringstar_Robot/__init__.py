@@ -28,9 +28,9 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  Auto Filter V3
+➥ Name :  ZAZUKI
     
-➥ Creator :<a href=https://t.me/TEAM_KERALA>𝙺𝙴𝚁𝙰𝙻𝙰</a>,
+➥ Creator :KERALA
 
 ➥ Language : Python3
 
