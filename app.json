@@ -101,6 +101,11 @@
             "value": "",
             "required": true
         },
+        "P_TTI_SHOW": {
+            "description": "Files Pm Sent Or File Pm start Pm Start is (True OR False)",
+            "value": "True",
+            "required": true
+        },
         "ADMIN_ID": {
             "description": "Control BroadCast",
             "value": "",
