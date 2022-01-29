@@ -63,9 +63,9 @@
             "value": "False",
             "required": false
         },
-        "OMDB_API_KEY": {
-            "description": "Your OMBD API KEY, Fill if you want to generate a imdb poster of movie in autofilter.",
-            "value": "",
+        "IMDB": {
+            "description": "Your FILE IMDB, Fill if you want to generate a imdb poster of movie in autofilter. (True False)",
+            "value": "True",
             "required": false
         },
         "CUSTOM_FILE_CAPTION": {
@@ -81,10 +81,6 @@
         "DATABASE_2": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com ",
             "value": ""
-        },
-        "BOT_NAME": {
-            "description": "Name of the database in mongoDB ",
-            "value": "LuciferMoringstar_Robot"
         },
         "COLLECTION_NAME": {
             "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
@@ -106,12 +102,12 @@
             "value": "",
             "required": true
         },
-        "ADMIN_ID": {
+        "CONTROLL_BROADCAST": {
             "description": "Control BroadCast",
             "value": "",
             "required": true
         },
-        "BROADCAST_CHANNEL": {
+        "TG_USER_LOG": {
             "description": "ID of a Channel (user Notification)",
             "value": "",
             "required": true
