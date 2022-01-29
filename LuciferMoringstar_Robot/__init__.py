@@ -28,7 +28,7 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  ZAZUKI
+➥ Name :  ZAZUKIhbbbb
     
 ➥ Creator :KERALA
 
