@@ -37,7 +37,7 @@
         "TG_USER_SESSION": {
             "description": "A pyrogram user session string. Generate from https://replit.com/@ALBINPRAVEEN1/getStringName",
             "value": "",
-            "required": true
+            "required": false
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
