@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/DalinMathew/AutoFilterBotV3",
-    "repository": "https://github.com/DalinMathew/AutoFilterBotV3",
+    "website": "https://github.com/sherlockv2/AutoFilterBotV3",
+    "repository": "https://github.com/sherlockv2/AutoFilterBotV3",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -77,9 +77,9 @@
             "description": "mongoDB URI. Get this value from https://www.mongodb.com ",
             "value": ""
         },
-        "BOT_NAME": {
-            "description": "Name of the database in mongoDB ",
-            "value": "LuciferMoringstar_Robot"
+        "BOT_USERNAME": {
+            "description": "USERNAME of the database in mongoDB Without @",
+            "value": ""
         },
         "COLLECTION_NAME": {
             "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
